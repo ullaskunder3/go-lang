@@ -1,0 +1,65 @@
+{
+    "info": {
+        "_postman_id": "7dd0b865-9b3b-4632-be24-0dfdfb35721d",
+        "name": "go todo",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "GET todo",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "/todos",
+                    "host": [
+                        "todos"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Create",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "/todo",
+                    "host": [
+                        "todo"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\"id\":\"1\", \"title\":\"Learn Go test1\", \"done\":false}"
+                }
+            }
+        },
+        {
+            "name": "todo",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "/todo/delete?id=1",
+                    "query": [
+                        {
+                            "key": "id",
+                            "value": "1"
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "delete"
+                    ],
+                    "host": [
+                        "todo"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "go todo",
+    "collectionId": "6d27ae45-72ea-4838-9365-1a4a45d6305f",
+    "dateExported": "2024-12-03T15:57:37.025Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6bae1481-58a7-4bd2-b628-11c6c2523303",
+            "colId": "6d27ae45-72ea-4838-9365-1a4a45d6305f",
+            "containerId": "",
+            "name": "GET todo",
+            "url": "/todos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-12-03T15:54:08.799Z",
+            "modified": "2024-12-03T15:56:59.558Z",
+            "headers": []
+        },
+        {
+            "_id": "60b4e098-2ceb-40b7-92ff-a30be6fb12ee",
+            "colId": "6d27ae45-72ea-4838-9365-1a4a45d6305f",
+            "containerId": "",
+            "name": "Create",
+            "url": "/todo",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-12-03T15:54:23.298Z",
+            "modified": "2024-12-03T15:57:15.906Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"id\":\"1\", \"title\":\"Learn Go test1\", \"done\":false}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3472abf0-0012-46f0-b974-20e6efe10780",
+            "colId": "6d27ae45-72ea-4838-9365-1a4a45d6305f",
+            "containerId": "",
+            "name": "todo",
+            "url": "/todo/delete?id=1",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-12-03T15:55:50.119Z",
+            "modified": "2024-12-03T15:57:24.077Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8080/"
+        }
+    },
+    "ref": "ZANvOhbO7BjaMr8dSfAXSfFno-UNcbEerS1MvSGnkZWQdtyj8BPgoy2v7B332ZtMSwB8p7B_-ZwMLC-2R-4VrA"
+}
