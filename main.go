@@ -8,13 +8,13 @@ package main
 // )
 
 // basics
-// import "go-lang/basic"
+import "go-lang/basic"
 
 var GLOBALVAR int = 101
 
 func main() {
 	// basics
-	// basic.Example()
+	basic.Example()
 
 	// api
 	// api.Server()
