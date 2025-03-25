@@ -12,7 +12,7 @@
         "problemMatcher": [],
         "presentation": {
           "reveal": "always",
-          "clear": true
+          "clear": true,
         },
         "detail": "Run the main.go file"
       },
