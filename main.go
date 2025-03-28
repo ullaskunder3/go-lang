@@ -26,7 +26,8 @@ func main() {
 	// error.BasicErrorHandelling()
 
 	// first project
-	project.FirstProject()
+	// project.FirstProject()
+	project.SecondProject()
 
 	// api
 	// api.Server()

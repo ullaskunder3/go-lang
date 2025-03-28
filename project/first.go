@@ -4,7 +4,6 @@ import "fmt"
 
 func FirstProject() {
 	cards := newDec()
-	// cards.print()
 	hand, remainingDeck := deal(cards, 5)
 	hand.print()
 	fmt.Println("====")
