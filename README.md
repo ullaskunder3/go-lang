@@ -217,5 +217,4 @@ type person struct {
     contact   contactInfo
 }
 
-testing
 ```
