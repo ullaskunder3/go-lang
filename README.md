@@ -24,7 +24,7 @@ nodemon --exec "go test ./project" --ext go
 
 ### **1. Statically Typed Language**
 
-- Go is **statically typed**, meaning that variable types are determined at **compile time** and cannot change at runtime.  
+- Go is **statically typed**, meaning that variable types are determined at **compile time** and cannot change at runtime.
 - Even though Go supports **type inference** (`:=`), once a type is assigned, it **cannot change**.
 
 ```go
@@ -34,7 +34,7 @@ num = "hello" // ❌ Error: Cannot assign a string to an int variable
 
 ### **2. Why Doesn't `:=` Work Outside Functions?**
 
-- `:=` is **only for function-scoped variables**.  
+- `:=` is **only for function-scoped variables**.
 - At the package level, you **must use** the `var` keyword.
 
 ```go
@@ -127,17 +127,17 @@ if ok {
 
 ### **1. Array vs. Slice**
 
-| Feature  | Array | Slice |
-|----------|------------|------------|
-| **Size**  | Fixed length | Dynamic size (can grow/shrink) |
-| **Mutability** | Cannot resize | Can resize using `append` |
-| **Underlying Data** | Contiguous memory | References an array |
+| Feature             | Array             | Slice                          |
+| ------------------- | ----------------- | ------------------------------ |
+| **Size**            | Fixed length      | Dynamic size (can grow/shrink) |
+| **Mutability**      | Cannot resize     | Can resize using `append`      |
+| **Underlying Data** | Contiguous memory | References an array            |
 
 #### Example:
 
 ```go
 // Array (Fixed size)
-arr := [3]int{1, 2, 3} 
+arr := [3]int{1, 2, 3}
 
 // Slice (Can grow)
 slice := []int{1, 2, 3}
@@ -184,6 +184,7 @@ func functionName(parameter1 type, parameter2 type) returnType {
 ```
 
 Example:
+
 ```go
 func add(a int, b int) int {
     return a + b
@@ -215,3 +216,6 @@ type person struct {
     lastName  string
     contact   contactInfo
 }
+
+testing
+```
