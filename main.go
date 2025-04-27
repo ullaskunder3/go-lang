@@ -1,7 +1,8 @@
 package main
 
 import (
-	"go-lang/project"
+	// "go-lang/project"
+	"go-lang/basic"
 	// "go-lang/api"
 	// "go-lang/basicI"
 	// "go-lang/book"
@@ -59,5 +60,9 @@ func main() {
 	// system.PassingArgument()
 
 	// project
-	project.FifthProjectHttp()
+	// project.FifthProjectHttp()
+
+	// basic pointer
+	basic.PointerBasic()
+
 }
