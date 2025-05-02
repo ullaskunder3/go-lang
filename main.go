@@ -2,12 +2,13 @@ package main
 
 import (
 	// "go-lang/project"
-	"go-lang/basic"
+	// "go-lang/basic"
+	// "go-lang/functions"
 	// "go-lang/api"
 	// "go-lang/basicI"
 	// "go-lang/book"
 	// "go-lang/project"
-	// "go-lang/task"
+	"go-lang/task"
 	// "go-lang/error"
 	// "go-lang/algorithm"
 	// "go-lang/system"
@@ -63,6 +64,12 @@ func main() {
 	// project.FifthProjectHttp()
 
 	// basic pointer
-	basic.PointerBasic()
+	// basic.PointerBasic()
+
+	//functions
+	// functions.Basic()
+
+	// task
+	task.PointerToPointer()
 
 }
