@@ -18,6 +18,12 @@ To run tests automatically on file changes:
 nodemon --exec "go test ./project" --ext go
 ```
 
+To test
+
+```sh
+nodemon --exec "go test -v ./test" --ext go
+```
+
 ---
 
 ## **Go Basics**
